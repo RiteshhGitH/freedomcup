@@ -1,0 +1,87 @@
+canvas {
+    background: #141414;
+    background-image: linear-gradient(#000000, rgb(83, 83, 83));
+    background-attachment: scroll;
+}  
+
+
+  .btn2 {
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 4px;
+    font-family: Arial;
+    color: #e62a37;
+    font-size: 20px;
+    padding: 4px 25px 4px 25px;
+    text-decoration: none;
+    border: #e62b35 solid;
+    position: fixed;
+    right:70px;
+    top: 30px;
+  }
+  .btn2:hover{
+      background-color: #ffffff;
+      border: #ffffff solid;
+  }
+  .btn1 {
+      background-color: #e62b35;
+    border-radius:4px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 4px 25px 4px 25px;
+    text-decoration: none;
+    border: #e62b35 solid;
+    position: fixed;
+    right:180px;
+    top: 30px;
+  }
+  .btn1:hover{
+      background-color: #ff8991;
+      border: #ff8991 solid;
+  } 
+
+  
+#grad1 {
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(red, white);
+  }
+
+.head{
+    position:fixed;
+    background-color: rgba(0, 0, 0, 0.472);
+    
+    width:100%
+}
+
+h1{
+    
+   
+    font-weight: bold;
+}
+h2{
+    
+}
+
+.slide{
+    position: absolute;
+    top: 150px;
+    left:100px;
+}
+
+.gradient-t{
+    font-size: 50px;
+    background: linear-gradient(60deg, #E21143, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+   
+  }
+  .fixed-content {
+    top: 0;
+    bottom:0;
+    position:fixed;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
