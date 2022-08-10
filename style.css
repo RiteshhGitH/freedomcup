@@ -4,70 +4,90 @@ canvas {
     background-attachment: scroll;
 }  
 
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 7vh;
+  background-color: #121212eb;
+}
 
-  .btn2 {
-    -webkit-border-radius: 5;
-    -moz-border-radius: 5;
-    border-radius: 4px;
-    font-family: Arial;
-    color: #e62a37;
-    font-size: 20px;
-    padding: 4px 25px 4px 25px;
-    text-decoration: none;
-    border: #e62b35 solid;
-    position: fixed;
-    right:70px;
-    top: 30px;
-  }
-  .btn2:hover{
-      background-color: #ffffff;
-      border: #ffffff solid;
-  }
-  .btn1 {
-      background-color: #e62b35;
-    border-radius:4px;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 4px 25px 4px 25px;
-    text-decoration: none;
-    border: #e62b35 solid;
-    position: fixed;
-    right:180px;
-    top: 30px;
-  }
-  .btn1:hover{
-      background-color: #ff8991;
-      border: #ff8991 solid;
-  } 
+.logo{
+  color: rgb(215, 215, 215);
+  display: flex;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 25px;
+}
 
-  
+.logo h{
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.nav-links li{
+  list-style: none;
+
+}
+
+.nav-links a{
+  color: rgb(215, 215, 215);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.burger{
+  display: none;
+}
+
+
+
+.burger div{
+  width: 25px;
+  height: 3px;
+  background-color: rgb(215, 215, 215);
+  margin: 5px;
+}
+
 #grad1 {
     height: 200px;
     background-color: red; /* For browsers that do not support gradients */
     background-image: linear-gradient(red, white);
   }
 
-.head{
-    position:fixed;
-    background-color: rgba(0, 0, 0, 0.472);
-    
-    width:100%
-}
+/*Setting more responsive navbar*/
 
 h1{
-    
-   
     font-weight: bold;
-}
-h2{
-    
 }
 
 .slide{
     position: absolute;
     top: 150px;
     left:100px;
+    right: 100px;
+    
+}
+
+.slide h{
+  color: rgb(215, 215, 215);
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.space{
+  height: 30px;
+  margin: 5px;
 }
 
 .gradient-t{
@@ -78,6 +98,7 @@ h2{
   
    
   }
+
   .fixed-content {
     top: 0;
     bottom:0;
